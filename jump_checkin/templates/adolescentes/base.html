@@ -17,7 +17,7 @@
         <h1>Check-in JUMP</h1>
         <div>
             <a href="{% url 'listar_adolescentes' %}" class="btn btn-outline-primary me-2">Adolescentes</a>
-            <a href="{% url 'pagina_checkin' %}" class="btn btn-outline-success me-2">Check-in</a>
+            <a href="{% url 'checkin_dia' %}" class="btn btn-outline-success me-2">Check-in</a>
             <a href="{% url 'lista_pgs' %}" class="btn btn-outline-secondary me-2">PGs</a>
     
             {% if user.is_authenticated %}
