@@ -103,14 +103,17 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# Configuração do idioma e fuso horário, para Brasília
+LANGUAGE_CODE = 'pt-br'
+TIME_ZONE = 'America/Sao_Paulo'
 
-TIME_ZONE = 'UTC'
-
+# Ativa internacionalização e fuso horário
 USE_I18N = True
-
 USE_TZ = True
 
+# Ativa localização e define o formato de data para o Brasil, facilitando o trabalho do check-in
+USE_L10N = True
+DATE_FORMAT = 'd/m/Y'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
