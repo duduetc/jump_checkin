@@ -1,11 +1,23 @@
-jump_checkin/adolescentes/__pycache__/__init__.cpython-312.pyc
-jump_checkin/adolescentes/__pycache__/forms.cpython-312.pyc
-jump_checkin/adolescentes/__pycache__/models.cpython-312.pyc
-jump_checkin/adolescentes/__pycache__/urls.cpython-312.pyc
-jump_checkin/adolescentes/__pycache__/views.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/urls.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
-jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
+# Ignorar arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar banco de dados SQLite
+checkin_jump/db.sqlite3
+db.sqlite3
+
+# Ignorar configurações do editor de código
+.vscode/
+.idea/
+*.swp
+
+# Ignorar ambiente virtual do Python
+venv/
+env/
+*.env
+
+# Ignorar arquivos de mídia e uploads
+*.jpg
+*.png
