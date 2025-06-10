@@ -1,0 +1,7 @@
+<h2>Cadastrar Adolescente</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+<a href="{% url 'listar_adolescentes' %}">Ver lista</a>

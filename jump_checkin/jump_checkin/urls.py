@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('adolescentes.urls')),  # ← isso importa as rotas da app adolescentes
 ]
 
 if settings.DEBUG:
