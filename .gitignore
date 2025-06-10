@@ -21,3 +21,5 @@ env/
 # Ignorar arquivos de mídia e uploads
 *.jpg
 *.png
+jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
+jump_checkin/jump_checkin/__pycache__/settings.cpython-312.pyc
