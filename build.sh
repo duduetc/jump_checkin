@@ -10,3 +10,6 @@ python jump_checkin/manage.py collectstatic --no-input
 
 # Executar migrações
 python jump_checkin/manage.py migrate
+
+# Criar usuário administrador padrão
+python jump_checkin/manage.py create_admin
