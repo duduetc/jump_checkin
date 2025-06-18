@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .forms import AdolescenteForm
 from .models import Adolescente
+from django.shortcuts import render
 
 @login_required
 def cadastrar_adolescente(request):
@@ -42,3 +43,6 @@ def excluir_adolescente(request, id):
         messages.success(request, 'Adolescente excluído com sucesso!')
         return redirect('listar_adolescentes')
     return render(request, 'adolescentes/confirmar_exclusao.html', {'adolescente': adolescente})
+
+def checkin_dia(request):
+    return render(request, 'adolescentes/checkin_dia.html')
